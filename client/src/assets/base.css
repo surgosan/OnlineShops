@@ -20,8 +20,19 @@ body {
     padding: 0;
 }
 
-a {
-    color: var(--text_color);
+footer {
+    padding: 1rem 0;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: var(--background_secondary);
+}
+footer h2 { text-decoration: solid 2px underline; }
+footer hr {
+    width: 99%;
 }
 
 nav {
@@ -40,11 +51,17 @@ nav a {
 }
 
 /*Links that change color based on what page your on*/
-nav a.router-link-exact-active > svg > g >g{
-    fill: var(--text_accent);
+nav a.router-link-exact-active > svg > g >g{ fill: var(--text_accent); }
+
+input {
+    height: 2rem;
+    font-size: 1.25rem;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, ul, li {
     margin: 0;
     padding: 0;
 }
+
+p { font-size: 1.1rem; }
+a { color: var(--text_color); }

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0,256,256" width="48px" height="48px">
+    <g transform="translate(-16.64,-16.64) scale(1.13,1.13)">
+        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-size="none" style="mix-blend-mode: normal">
+            <g transform="scale(5.33333,5.33333)">
+                <path d="M45,35c0,2.209 -1.791,4 -4,4h-34c-2.209,0 -4,-1.791 -4,-4v-22c0,-2.209 1.791,-4 4,-4h34c2.209,0 4,1.791 4,4z" fill="#1976d2">
+                </path>
+                <path d="M22.255,20l-2.113,4.683l-2.103,-4.683h-2.695v6.726l-3.003,-6.726h-2.274l-3.067,6.981h1.815l0.671,-1.558h3.432l0.682,1.558h3.465v-5.185l2.299,5.185h1.563l2.351,-5.095v5.095h1.722v-6.981zM10.135,23.915l1.026,-2.44l1.066,2.44zM37.883,23.413l3.117,-3.395h-2.217l-1.994,2.164l-1.929,-2.182h-6.86v6.982h6.635l2.092,-2.311l2.04,2.329h2.21zM33.728,25.516h-4.011v-1.381h3.838v-1.323h-3.838v-1.308l4.234,0.012l1.693,1.897z" fill="#ffffff">
+                </path>
+            </g>
+        </g>
+    </g>
+</svg>

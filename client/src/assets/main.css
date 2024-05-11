@@ -1,20 +1,51 @@
+/*----------------------------------------------- MAIN -----------------------------------------------*/
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: Tahoma, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
 }
 
+#page_content { min-height: 100vh; }
+/*---------------------------------------- SPECIAL EFFECTS ----------------------------------------*/
+#invert_colors { filter: invert(100%); }
+
+/*------------------------------------------------ NAV ------------------------------------------------*/
 .navSVG {
     height: 2em;
     aspect-ratio: 1;
     transition: 400ms;
 }
 
-.navSVG:hover {
-    scale: 1.1;
+.navSVG:hover { scale: 1.1; }
+.navSVG > g > g { fill: var(--text_color); }
+
+/*---------------------------------------------- FOOTER ----------------------------------------------*/
+#newsletter {
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#newsletter input { width: 20rem; }
+
+#footer_menu_links {
+    font-size: 1.1rem;
+    display: flex;
+    gap: 1rem;
 }
 
-.navSVG > g > g {
-    fill: var(--text_color);
+#footer_menu_links a.router-link-exact-active {
+    color: var(--text_accent);
 }
+
+#footer_payment_options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#footer_payment_options > * { height: 3rem; }
+.footer_payment_reduce { height: 2.3rem !important; }

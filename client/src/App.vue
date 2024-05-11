@@ -59,10 +59,49 @@
     </div>
   </nav>
 
-  <router-view></router-view>
+  <router-view id="page_content"></router-view>
 
   <footer>
+<!--   Keep me updated! |  What we Offer | Menu | Support Us | Show payment option logos | Technical Details (Refund Policy | Privacy Policy | Terms of Service | Shipping Policy)-->
+    <div id="newsletter">
+      <h1>Keep me updated!</h1>
+      <p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
+      <label><input type="email" placeholder="Email"></label>
+    </div>
 
+    <div id="footer_offer">
+      <h2>What We Offer</h2>
+      <p>Customer Satisfaction • Customer Support • High Quality Products • Secure Transaction</p>
+    </div>
+
+    <div id="footer_menu">
+      <h2>Menu</h2>
+      <div id="footer_menu_links">
+        <router-link to="/">Home</router-link>
+        <router-link to="/user">Account</router-link>
+        <router-link to="/tracking">Track Your Order</router-link>
+        <router-link to="/checkout">Checkout</router-link>
+      </div>
+    </div>
+
+    <div id="footer_donate">
+      <h2>Become an Affiliate</h2>
+      <p>Sign up to support the page and become an affiliate</p>
+    </div>
+
+    <hr>
+
+    <div id="footer_payment_options">
+      <img src="@/assets/svgs/PaymentSVGS/Amex.svg" alt="American Express">
+      <img src="@/assets/svgs/PaymentSVGS/ApplePay.svg" alt="ApplePay" id="invert_colors">
+      <img src="@/assets/svgs/PaymentSVGS/Discover.svg" alt="Discover">
+      <img class="footer_payment_reduce" src="@/assets/svgs/PaymentSVGS/GooglePay.svg" alt="Google Pay" >
+      <img class="footer_payment_reduce" src="@/assets/svgs/PaymentSVGS/MasterCard.svg" alt="Master Card">
+      <img class="footer_payment_reduce" src="@/assets/svgs/PaymentSVGS/Shop.svg" alt="Shop">
+      <img class="footer_payment_reduce" src="@/assets/svgs/PaymentSVGS/Visa.svg" alt="Visa">
+    </div>
+
+    <p>© 2024, Our Shop • Refund Policy • Privacy Policy • Shipping Policy • Terms of Service</p>
   </footer>
 </template>
 
