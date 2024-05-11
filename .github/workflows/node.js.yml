@@ -6,12 +6,9 @@ name: Node.js CI
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -20,14 +17,29 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
+    - name: Checkout Repository
     - uses: actions/checkout@v4
-    - name: Use Node.js ${{ matrix.node-version }}
+    
+    - name: Setup Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
-    - run: cd client
-    - run: npm install
-    - run: cd dist
-    - run: npm run serve
+
+    - name: Install Dependencies
+      run: npm install
+      working-directory: client
+
+    - name: Build VueJS Project
+      run: npm run build
+      working-directory: client
+
+    - name: Deploy to GitHub Pages
+      if: always()
+      uses: JamesIves/github-pages-deploy-action@4.1.4
+      with:
+        branch: gh-pages
+        folder: client/dist
+        clean: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
