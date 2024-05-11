@@ -1,0 +1,50 @@
+:root {
+    --background_color: rgb(0,0,0);
+    --background_secondary: #0d0d0d;
+    --primary: #003db8;
+    --text_color: rgb(255,255,255);
+    --text_accent: #7a2b00;
+    --green_accent: #42b983;
+
+    /*Not using*/
+    --primary_light: #4785ff;
+    --secondary_ligth: #f2f2f2;
+    --accent_light: #ffaf85;
+
+    background: black;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--text_color);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: .7rem 0;
+    background-color: var(--background_secondary);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+nav a {
+    font-weight: bold;
+}
+
+/*Links that change color based on what page your on*/
+nav a.router-link-exact-active > svg > g >g{
+    fill: var(--text_accent);
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+}

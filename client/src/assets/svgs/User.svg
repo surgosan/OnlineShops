@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0,256,256" width="48px" height="48px">
+    <g transform="translate(-24.32,-24.32) scale(1.19,1.19)">
+        <g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-size="none" style="mix-blend-mode: normal">
+            <g transform="scale(10.66667,10.66667)">
+                <path d="M12,3c-2.20914,0 -4,1.79086 -4,4c0,2.20914 1.79086,4 4,4c2.20914,0 4,-1.79086 4,-4c0,-2.20914 -1.79086,-4 -4,-4zM12,14c-3.004,0 -9,1.508 -9,4.5v2.5h18v-2.5c0,-2.992 -5.996,-4.5 -9,-4.5z">
+                </path>
+            </g>
+        </g>
+    </g>
+</svg>
