@@ -14,7 +14,7 @@
         </svg>
       </router-link>
 
-      <router-link to="/user">
+      <router-link to="/account">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0,256,256" width="60px" height="60px" class="navSVG">
           <g transform="translate(-23,-40) scale(1.19,1.19)">
             <g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-size="none" style="mix-blend-mode: normal">
@@ -78,7 +78,7 @@
       <h2>Menu</h2>
       <div id="footer_menu_links">
         <router-link to="/">Home</router-link>
-        <router-link to="/user">Account</router-link>
+        <router-link to="/account">Account</router-link>
         <router-link to="/tracking">Track Your Order</router-link>
         <router-link to="/checkout">Checkout</router-link>
       </div>

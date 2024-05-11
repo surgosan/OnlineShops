@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import CheckoutView from '../views/CheckoutView.vue'
+import AccountView from "@/views/AccountView.vue";
+import TrackingView from "@/views/TrackingView.vue";
 
 const routes = [
   {
@@ -9,8 +11,18 @@ const routes = [
     component: HomeView
   },
   {
+    path: '/account',
+    name: 'Account',
+    component: AccountView
+  },
+  {
+    path: '/tracking',
+    name: 'Tracking',
+    component: TrackingView
+  },
+  {
     path: '/checkout',
-    name: 'checkout',
+    name: 'Checkout',
     component: CheckoutView
   }
 ]
