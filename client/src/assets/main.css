@@ -47,5 +47,4 @@
     align-items: center;
     gap: 1rem;
 }
-#footer_payment_options > * { height: 3rem; }
-.footer_payment_reduce { height: 2.3rem !important; }
+#footer_payment_options > * { height: 2.3rem; }

@@ -93,12 +93,12 @@
 
     <div id="footer_payment_options">
       <img src="@/assets/svgs/PaymentSVGS/Amex.svg" alt="American Express">
-      <img src="@/assets/svgs/PaymentSVGS/ApplePay.svg" alt="ApplePay" id="invert_colors">
+      <img src="@/assets/svgs/PaymentSVGS/ApplePay.svg" alt="ApplePay">
       <img src="@/assets/svgs/PaymentSVGS/Discover.svg" alt="Discover">
-      <img class="footer_payment_reduce" src="@/assets/svgs/PaymentSVGS/GooglePay.svg" alt="Google Pay" >
-      <img class="footer_payment_reduce" src="@/assets/svgs/PaymentSVGS/MasterCard.svg" alt="Master Card">
-      <img class="footer_payment_reduce" src="@/assets/svgs/PaymentSVGS/Shop.svg" alt="Shop">
-      <img class="footer_payment_reduce" src="@/assets/svgs/PaymentSVGS/Visa.svg" alt="Visa">
+      <img src="@/assets/svgs/PaymentSVGS/GooglePay.svg" alt="Google Pay" >
+      <img src="@/assets/svgs/PaymentSVGS/MasterCard.svg" alt="Master Card">
+      <img src="@/assets/svgs/PaymentSVGS/Shop.svg" alt="Shop">
+      <img src="@/assets/svgs/PaymentSVGS/Visa.svg" alt="Visa">
     </div>
 
     <p>© 2024, Our Shop • Refund Policy • Privacy Policy • Shipping Policy • Terms of Service</p>
